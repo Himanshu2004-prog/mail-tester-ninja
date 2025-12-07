@@ -4,7 +4,7 @@ import os
 import time
 
 # MailTester Ninja API key (env override supported)
-API_KEY = os.getenv("MAILTESTER_API_KEY", "sub_1STNPEAJu6gy4fiY2Pe1D7H8")
+API_KEY = os.getenv("MAILTESTER_API_KEY", "")
 # Conservative delay to respect MailTester rate limits (Pro: ~1 per 860ms)
 RATE_LIMIT_DELAY_SECONDS = float(os.getenv("MAILTESTER_RATE_DELAY_SECONDS", "0.9"))
 
